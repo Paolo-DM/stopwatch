@@ -1,0 +1,39 @@
+.stopwatchContainer {
+  width: 90%;
+  min-height: 100vh;
+  height: 100%;
+  margin: 2rem auto;
+  padding: 5rem 0;
+  border-radius: 25px;
+  background-color: #e3dcdf;
+}
+
+.timerText {
+  font-family: "Julius Sans One", Sans-Serif;
+  font-size: 45px;
+  font-weight: bold;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.timerButton {
+  cursor: pointer;
+  width: 150px;
+  font-size: 1.5rem;
+  color: white;
+  background-color: #b2a9ac;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+}
+
+.timerButton:hover {
+  background-color: #9e9699;
+}
+
+.lapsTime {
+  font-family: "Crimson Text", Serif;
+  color: #877d70;
+  font-size: 1.6rem;
+  margin: 0.5rem 0;
+}
